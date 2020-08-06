@@ -9,15 +9,13 @@ use think\Url;
 class Index extends Controller
 {
 
-    public function index()
-    {
-        
-        
-    	
-        return $this->fetch("",[
+   public function index()
+   {
+	   $title="fastthinkphp";
+	   return $this->fetch("",[
         
         ]);
-    }
+   }
   
     
     /**
