@@ -13,7 +13,7 @@ class Index extends Controller
    {
    	
 	   $title="fastthinkphp";
-	   $message="devPull测试";
+	   $message="devPull测试1";
 	   return $this->fetch("",[
         
         ]);
