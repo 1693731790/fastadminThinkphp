@@ -1,0 +1,23 @@
+succeess2020-07-23 13:39:23Array
+(
+    [s] => /index/opay/notifyx
+    [gmt_create] => 2020-07-23 10:12:47
+    [charset] => UTF-8
+    [seller_email] => jiaduoheng@qq.com
+    [notify_time] => 2020-07-23 13:39:21
+    [subject] => o扫码测试
+    [sign] => WArFjXQ+uFTTGlUpH79yyn2NlrakiahTekSCRWY49LrQKr64khibUH8bNaYr88hD8/A9T2fDd3d2bGk+POhBKQuHuyX4+7pTUQOq++WCd5MJLPbdyQ+Je1nCaDyQ6caKo8NZkNWVS91MrEAd3l3GzBih0ysn3buHI+vHcqC+vgsuUNBMh74UGmQTmHZ8Fvrmuq42wCd/CDyhXsdgfllLm6rQNhS/YdKHF//MA8D5JMTuVRhGgFqqPxdsObXnTFWdVeFeQMN4BRIukb4gU96OlKCAMSrVdDGuQen/DAE3VSc0GV+Z7i6FA8UFKaOfc1gVfneUNnXQvVwImpgha2tH9w==
+    [buyer_id] => 2088112010305777
+    [version] => 1.0
+    [notify_id] => 2020072300222101247005771452869449
+    [notify_type] => trade_status_sync
+    [out_trade_no] => 15954703629877
+    [total_amount] => 0.01
+    [trade_status] => WAIT_BUYER_PAY
+    [trade_no] => 2020072322001405771431666531
+    [auth_app_id] => 2019012263129400
+    [buyer_logon_id] => 169***@qq.com
+    [app_id] => 2019012263129400
+    [sign_type] => RSA2
+    [seller_id] => 2088621844218040
+)

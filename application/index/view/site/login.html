@@ -1,0 +1,74 @@
+{include file="common/header"}
+    <!--头部start-->
+
+<div class="agent-main">
+        <div  class="login-banner"></div>
+        <div class="login-form">
+            <ul>
+                <li class="agent-flex  agent-flex-vc">
+                    <i><img src="/assets/frontend/images/login-per.png" class="agent-img"></i>
+                    <div class="login-form-input">
+                        <input  type="text" id="username"  placeholder="请输入用户账号">
+                    </div>
+                </li>
+                <li class="agent-flex  agent-flex-vc">
+                    <i><img src="/assets/frontend/images/login-lock.png" class="agent-img"></i>
+                    <div class="login-form-input">
+                       <input  type="password" id="password"  placeholder="请输入密码">
+                    </div>
+                </li>
+                <li class="agent-flex  agent-flex-vc agent-flex-hc">
+                    <input type="text" id="captcha"  placeholder="请输入验证码" />
+
+                    <span class="input-group-addon" style="padding:0;border:none;cursor:pointer;">
+                        <img src="{:Url('site/captcha')}" width="100" height="30" onclick="this.src = '{:Url('site/captcha')}'" />
+                    </span>
+                </li>
+            </ul>
+            <div class="login-btn">
+                <a href="javascript:;" id="login" class="agent-btn1">登  录</a>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    $(function(){
+        $("#login").click(function(){
+
+            // alert(1);
+            var username=$("#username").val();
+            var password=$("#password").val();
+            var captcha=$("#captcha").val();
+            
+            if(username=="")
+            {
+                layer.msg("请输入账号");
+                return false;
+            }
+            if(password=="")
+            {
+                layer.msg("请输入密码");
+                return false;
+            }
+            if(captcha=="")
+            {
+                layer.msg("请输入验证码");
+                return false;
+            }
+            
+            $.get("{:Url('site/login')}",{"username":username,"password":password,"captcha":captcha},function(r){
+                if(r.success)
+                {
+                   layer.msg('正在跳转');
+                   setTimeout(function(){
+                        window.location.href="{:Url('user/index')}";
+                   },2000);
+                }else{
+                    
+                    layer.msg(r.message);
+                    return false;
+                }
+            })
+        })
+
+    })
+</script>
