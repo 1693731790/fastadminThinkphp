@@ -11,7 +11,9 @@ class Index extends Controller
 
    public function index()
    {
+   	
 	   $title="fastthinkphp";
+	   $message="devPull测试";
 	   return $this->fetch("",[
         
         ]);
