@@ -24,6 +24,7 @@ class Index extends Controller
    {
    	
 	   $title="获取当前bug";
+	   echo "master分支";
 
 	   
    }
