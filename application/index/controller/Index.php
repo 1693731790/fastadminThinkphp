@@ -12,7 +12,7 @@ class Index extends Controller
    public function index()
    {
    	
-	   $title="fastthinkphp";
+	   $title="fastthinkphp123456789";
 
 	   $message="devPull测试1";
 	   return $this->fetch("",[
