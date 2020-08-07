@@ -22,9 +22,12 @@ class Index extends Controller
   
     public function getBug()
    {
-   	
+
 	   $title="获取当前bug";
 	   echo "master分支";
+
+		$title="获取当前bug";
+		echo "bug分支";
 
 	   
    }
