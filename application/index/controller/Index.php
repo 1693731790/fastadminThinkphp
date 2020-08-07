@@ -20,7 +20,13 @@ class Index extends Controller
         ]);
    }
   
-    
+    public function getBug()
+   {
+   	
+	   $title="获取当前bug";
+
+	   
+   }
     /**
      * 支付成功，仅供开发测试
      */
