@@ -13,7 +13,7 @@ class Index extends Controller
    {
    	  //测试是否自动显示拉取
 	   $title="fastthinkphp123111456789666999";
-
+	  $code="ceshima";
 	   $message="devPull测试1";
 	   return $this->fetch("",[
         
