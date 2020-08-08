@@ -11,8 +11,8 @@ class Index extends Controller
 
    public function index()
    {
-   	  //测试是12
-	   $title="fastthinkphp123111456789666999";
+   	  //测试是12456789
+	   $title="fastthi";
 	  $code="ceshima";
 	   $message="devPull测试1";
 	   return $this->fetch("",[
