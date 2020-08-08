@@ -11,7 +11,7 @@ class Index extends Controller
 
    public function index()
    {
-   	
+   	  //测试是否自动显示拉取
 	   $title="fastthinkphp123456789";
 
 	   $message="devPull测试1";
