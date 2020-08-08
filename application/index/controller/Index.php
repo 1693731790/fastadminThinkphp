@@ -11,7 +11,7 @@ class Index extends Controller
 
    public function index()
    {
-   	  //测试是否自动显示拉取
+   	  //测试是1
 	   $title="fastthinkphp123111456789666999";
 	  $code="ceshima";
 	   $message="devPull测试1";
